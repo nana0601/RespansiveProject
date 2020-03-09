@@ -1,0 +1,190 @@
+@media screen and (max-width: 992px) {
+    .logo{
+        margin: 30px auto;
+    }
+    .menu{
+        width: 30px;
+        height: 30px;
+        background: url(../imgs/icon-hamburger.svg) no-repeat;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        z-index: 1000;
+    }
+    .menuBox{
+        display: none;
+    }
+    .small{
+        margin-top: 26px;
+    }
+    .xys{
+        width: 100%;
+    }
+    .adv-list{
+        width: 100%;
+    }
+    .defer-one{
+        width: 100%;
+    }
+    .works{
+        width: 100%;
+    }
+    .defer-two{
+        width: 100%;
+    }
+    .dt{
+        position: static;
+        top: 0px;
+        height: auto;
+    }
+    .dt-left{
+        position: static;
+        top: 0px;
+        width: 100%;
+        margin: 0 ;
+    }
+    .dt-right{
+        position: relative;
+        top: 0;
+    }
+    .tr{
+        height: 5200px;
+        background: #EEF1DB;
+        position: relative;
+    }
+    .artists{
+        display: none;
+    }
+    .aListBox{
+        position: relative;
+        top: 0;
+        overflow: visible;
+    }
+    .artists-box{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: visible;
+    }
+    .artists-box>li{
+        margin-bottom: 20px;
+    }
+    .artists-box>li>img{
+        height:100%;
+    }
+    .btnL{
+        display: none;
+    }
+    .btnR{
+        display: none;
+    }
+    .client{
+        width: 100%;
+        margin: 0;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer>div{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .logo{
+        margin: 30px auto;
+    }
+    .menu{
+        width: 30px;
+        height: 30px;
+        background: url(../imgs/icon-hamburger.svg) no-repeat;
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        z-index: 1000;
+    }
+    .menuBox{
+        display: none;
+    }
+    .small{
+        margin-top: 0;
+    }
+    .xys{
+        width: 100%;
+    }
+    .adv-list{
+        width: 100%;
+    }
+    .defer-one{
+        width: 100%;
+    }
+    .works{
+        width: 100%;
+    }
+    .defer-two{
+        width: 100%;
+    }
+    .dt{
+        position: static;
+        top: 0px;
+        height: auto;
+    }
+    .dt-left{
+        position: static;
+        top: 0px;
+        width: 100%;
+        margin: 0 ;
+    }
+    .dt-right{
+        position: relative;
+        top: 0;
+    }
+    .tr{
+        height: 2900px;
+        background: #EEF1DB;
+        position: relative;
+    }
+    .artists{
+        display: none;
+    }
+    .aListBox{
+        position: relative;
+        top: 0;
+        overflow: visible;
+    }
+    .artists-box{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: visible;
+    }
+    .artists-box>li{
+        margin-bottom: 20px;
+    }
+    .artists-box>li>img{
+        height:100%;
+    }
+    .btnL{
+        display: none;
+    }
+    .btnR{
+        display: none;
+    }
+    .client{
+        width: 100%;
+        margin: 0;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer>div{
+        margin-bottom: 40px;
+    }
+    .big{
+        text-align: center;
+    }
+    .small{
+        text-align: center;
+    }
+}

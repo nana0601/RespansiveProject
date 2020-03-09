@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head-box{
+    width: 97%;
+    height: 90px;
+    margin: 0 auto;
+}
+.logo{
+    margin: 30px 0;
+}
+.text{
+    color: #000;
+    font-size: 14px;
+}
+.bg{
+    color: #fff;
+    background: #000;
+}
+.icons>span{
+    width: 24px;
+    height: 24px;
+    margin: 10px 5px;
+    background: url(../imgs/social_icon_24x24\ \(1\).png) no-repeat;
+}
+.icons>span:nth-child(1){
+    background-position: 0 -72px;
+}
+.icons>span:nth-child(2){
+    background-position: -24px -72px;
+}
+.icons>span:nth-child(3){
+    background-position: -96px -72px;
+}
+.icons>span:nth-child(4){
+    background-position: -192px -72px;
+}
+.xys,.about{
+    padding: 60px 40px 0;
+    margin: 0 auto;
+}
+.line{
+    width: 2px;
+    height: 60px;
+    margin: 0 auto;
+    background: #000;
+}
+.advantage{
+    height: 80px;
+    margin: 0 auto;
+}
+.big{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding: 0;
+}
+.small{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 26px;
+    text-align: left;
+    padding: 0;
+}
+.textCenter{
+    padding: 11px 0 25px;
+}
+.textCenter>span{
+    text-indent: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #989898;
+}
+.adv-list,.defer-one,.works,.client{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.adv-list img{
+    display: block;
+    margin: 0 auto;
+}
+.adv-list p{
+    text-align: center;
+}
+.adv-list span{
+    display: block;
+    text-align: center;
+}
+.bgColor{
+    background: #EEF1DB;
+    padding: 80px 40px;
+}
+.deferDot{
+    margin-top: 108px;
+}
+.deferDot>li:nth-child(1){
+    font-size: 18px;
+}
+.deferDot>li:nth-child(2){
+    font-size: 14px;
+    color: #8d8d8d;
+}
+.deferDot>li>button{
+    padding: 11px 35px;
+    border: none;
+    outline: none;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+}
+.deferDetails>li:nth-child(2){
+    font-size: 20px;
+}
+.deferDetails>li:nth-child(3){
+    font-size: 14px;
+    color: #989898;
+}
+.title{
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+.desc{
+    margin: 0 auto;
+    font-size: 14px;
+    color: #989898;
+}
+.defer-two{
+    width: 80%;
+    margin: 120px auto 0;
+    padding: 40px 40px 0;
+    background: #EEF1DB;
+}
+.dt-box{
+    background: #fff;
+}
+.dt{
+    position: relative;
+    top: -120px;
+    height: 360px;
+}
+.dt-left{
+    position: relative;
+    top: 140px;
+    width: 50%;
+    margin: 0 auto;
+}
+.dt-right{
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+.dt-left>li:nth-child(1){
+    font-size: 18px;
+}
+.dt-left>li:nth-child(2){
+    font-size: 14px;
+    color: #8d8d8d;
+}
+.dt-left>li>button{
+    padding: 11px 35px;
+    border: none;
+    outline: none;
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+}
+.tr{
+    background: #fff;
+    height: 517px;
+}
+.artists{
+    width: 80%;
+    height: 420px;
+    margin: 0 auto;
+    background: #EEF1DB;
+    margin-top: 100px;
+    padding: 0 40px;
+}
+.aListBox{
+    position: relative;
+    top: -500px;
+    left: 0;
+    width: 80%;
+    height: 517px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: hidden;
+}
+.artists-box{
+    width: 200%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    
+}
+.artists-box>li{
+    height: 100%;
+}
+.artists-box>li>img{
+    width: 312px;
+    height: 412px;
+    margin: 0 auto;
+}
+.name{
+    font-size: 14px;
+    font-weight: 600;
+}
+.city{
+    font-size: 12px;
+}
+.aListBox>div{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0;
+}
+.btnL{
+    left: 0px;
+}
+.btnR{
+    right: 0;
+}
+.client>div{
+    padding: 6px;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.footer p{
+    font-weight: 600;
+}
+.copyRight{
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    margin: 0 auto;
+}
+.tag{
+    font-size: 13px;
+}
+.call,.serv,.foll{
+    font-size: 14px;
+}
+.foll>span{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    display: inline-block;
+    background: url(../imgs/social_icon_24x24\ \(1\).png) no-repeat;
+}
+.foll>.bg1{
+    background-position: -480px -72px;
+}
+.foll>.bg2{
+    background-position: -504px -72px;
+}
+.foll>.bg3{
+    background-position: -360px -72px;
+}
+.foll>.bg4{
+    background-position: -192px -72px;
+}
+.foll>.bg5{
+    background-position: -456px -72px;
+}
